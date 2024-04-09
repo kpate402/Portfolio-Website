@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+
+    <!-- ChatGBT helped come up with mission statement. tried helping with navbar color but failed
+    link: https://chat.openai.com/share/7e0630c7-591e-403c-81e3-818e6e6a0818-->
+    
+    <!-- TODO: Replace this with your title -->
+    <title>Kush Patel's Portfolio</title>  
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- TODO: Paste Navbar code and customize links -->  
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#hero-section">
+          <i class="bi bi-house-door"></i>
+        </a>
+        <button class="navbar-toggler" 
+                data-bs-toggle="collapse"
+                data-bs-target="#nav-collapse"
+                type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="nav-collapse" class="collapse navbar-collapse">
+          <div class="navbar-nav ms-auto">
+            <a href="#mission-section" class="nav-link">Mission </a>
+            <a href="#skills-section" class="nav-link">Skills </a>
+            <a href="#contact-section" class="nav-link">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero section -->
+  	<section id="hero-section">
+      <div class="content">
+        <img src="img/portrait.jpeg" class="img-fluid" alt="image of me">
+        <h1 class="text-center">Kush Patel <br><small>I'm Shooting for High Up With Where I Want To Go</small></h1>
+      </div>
+  	</section>
+    
+  	<!-- Mission/Meet-me section -->
+    <section id="mission-section">
+      <div class="container">
+        
+        <div class="row">
+          <div class="text-center">
+          <h2>Mission</h2>
+          </div>
+          <div class="d-md-none d-block col-md-6 text-center">
+            <p>
+              My mission is to leverage my expertise in computer science, combined with a passion for web development, software engineering, and frontend design, to create innovative digital solutions that empower users and drive meaningful impact. Through collaborative problem-solving, continuous learning, and meticulous attention to detail, I aim to deliver seamlessly integrated and user-centric experiences that exceed expectations. By staying at the forefront of emerging technologies and best practices, I strive to contribute to the advancement of the digital landscape while fostering creativity, inclusivity, and accessibility in every project I undertake.
+            </p>
+          </div>
+          <div class="d-none d-sm-block d-sm-none d-md-block col-md-6">
+            <p>
+              My mission is to leverage my expertise in computer science, combined with a passion for web development, software engineering, and frontend design, to create innovative digital solutions that empower users and drive meaningful impact. Through collaborative problem-solving, continuous learning, and meticulous attention to detail, I aim to deliver seamlessly integrated and user-centric experiences that exceed expectations. By staying at the forefront of emerging technologies and best practices, I strive to contribute to the advancement of the digital landscape while fostering creativity, inclusivity, and accessibility in every project I undertake.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="img/laptop.jpg" alt="image of me"  >  
+          </div> 
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Skills section -->
+    <section id="skills-section">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h2>Skills</h2>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="skill text-center">
+              <!-- Icons can be sized using font styling properties -->
+                <i class="bi bi-filetype-html"></i>
+                <p>I am good at HTML and can make websites</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="skill text-center">
+              <i class="bi bi-filetype-css"></i>
+              <p>I am good at CSS and can style websites</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="skill text-center">
+              <i class="bi bi-bootstrap"></i>
+              <p>I am good at Bootstrap and can style websites</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="skill text-center">
+              <i class="bi bi-filetype-js"></i>
+              <p>I am good at JavaScript and add functionality on websites</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  	</section>
+  
+    <!-- Contact Section -->
+    <section id="contact-section">
+      <div class="container">
+        <div class="row">
+          <div class="text-center">
+            <h2>Contacts</h2>
+          </div>
+          <div class="col-md-4">
+            <div class="contact text-center">
+              <!-- Icons can be sized using font styling properties -->
+                <i class="bi bi-filetype-html"></i>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact text-center">
+              <i class="bi bi-filetype-css"></i>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact text-center">
+              <i class="bi bi-bootstrap"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    
+    <!-- Footer section -->
+    <footer id="footer-section" class="footer bg-dark text-white">
+      <div class="container text-center">
+        <h6> <i id="footer-icon" class="bi bi-c-circle"> </i>Kush Patel 2024</h6>
+      </div>
+    </footer>
+
+  
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+      https://getbootstrap.com/docs/5.3/getting-started/introduction/
+  	-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
