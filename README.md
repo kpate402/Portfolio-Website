@@ -5,7 +5,7 @@ helps give an idea into the kind of person I am. This project also uses bootstra
 website's layout and formatting dynamically based on the viewport size to allow for better user experience on smaller
 screens.
 
-Mission: describes my goals\ 
+Mission: describes my goals\
 Projects: showcases my projects and has images and links for them\
 Skills: describes what skills I have using icon from Bootstrap\
 Contact: Has clickable icons as ways to contact me
