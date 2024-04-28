@@ -8,4 +8,4 @@ screens.
 Mission: describes my goals\ 
 Projects: showcases my projects and has images and links for them\
 Skills: describes what skills I have using icon from Bootstrap\
-Contact: Has clickable icons as ways to contact me\
+Contact: Has clickable icons as ways to contact me
